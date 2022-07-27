@@ -15,3 +15,88 @@ body {
   font-family: "Poppins", sans-serif;
   font-family: "Roboto", sans-serif;
 }
+.container{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+/* ................................................  */
+/* navbar */
+/* ...................................................  */
+
+
+
+header {
+    /* margin-bottom: 10rem; */
+    background-color: #7030CC;
+    border-radius: 2rem;
+    height: 100vh;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+    margin-bottom: 5rem;
+    /* gap: 10rem; */
+  }
+  
+  .logo {
+    width: 11rem;
+    cursor: pointer;
+  }
+  
+  .grow-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    gap: 5rem;
+  }
+  
+  .list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    gap: 5rem;
+  }
+  
+  .list-item {
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .list-item:hover{
+      cursor: pointer;
+      color: #1BBCEF;
+  }
+  .active{
+    color: #1BBCEF;
+    font-weight: 500;
+  }
+  
+  .button-group button {
+    display: block;
+    width: 16rem;
+    padding: 1.5rem 2.5rem;
+    font-size: 1.6rem;
+    background-color: #1BBCEF;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid transparent;
+  }
+  
+  .nav-button:hover{
+  background-color: #fff;
+  color: #1BBCEF;
+  cursor: pointer;
+  }
+  .btn:hover{
+      cursor: pointer;
+      background: #fff !important;
+      border: 1px solid #079bf2;
+      color: #079bf2 !important;
+  }
