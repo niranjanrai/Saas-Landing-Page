@@ -145,6 +145,7 @@ width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 10rem;
+    margin-bottom: 5rem;
 }
 .sec-1-img{
     width: 100%;
@@ -168,7 +169,11 @@ width: 100%;
     flex-direction: column;
     gap: 2rem;
 }
-.feature-1 h3{
+
+.feature-1{
+    position: relative;
+}
+.feature-1 h3 {
 font-size: 2.4rem;
 /* font-weight: 600; */
 margin-bottom: 1.2rem;
@@ -180,6 +185,20 @@ margin-bottom: 1.2rem;
 }
 
 
-
+.arrow{
+    font-size: 2.5rem;
+    position: absolute;
+    top: 4px;
+    left: -30px;
+}
+.orange{
+color: #F3914C;
+}
+.green{
+color: #A4DA78;
+}
+.blue{
+    color: #3F9CF2;
+}
 
 
