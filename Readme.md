@@ -1,4 +1,4 @@
-# Business Landing Page
+# SASS Landing Page
 
 This is a layout of Sass Landing Page with the tch stack of HTML and CSS. 
 
