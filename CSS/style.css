@@ -27,7 +27,7 @@ body {
 
 
 header {
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
     background-color: #7030CC;
     border-radius: 2rem;
     height: 100vh;
@@ -134,3 +134,52 @@ width: 100%;
 .hero-img img{
     width: 100%;
 }
+
+
+
+/* ................................................  */
+/* Sec-1 Section */
+/* ...................................................  */
+
+.sec-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10rem;
+}
+.sec-1-img{
+    width: 100%;
+}
+.sec-1-img img{
+    width: 100%;
+}
+
+.sec-1-text{
+    margin-top: 8rem;
+}
+
+.sec-1-heading{
+    font-size: 4rem;
+    margin-bottom: 2.5rem;
+}
+
+.sec-1-features{
+    padding-left: 4rem;
+    display: grid;
+    flex-direction: column;
+    gap: 2rem;
+}
+.feature-1 h3{
+font-size: 2.4rem;
+/* font-weight: 600; */
+margin-bottom: 1.2rem;
+}
+.feature-1 p{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding-right:  7rem;
+}
+
+
+
+
+
