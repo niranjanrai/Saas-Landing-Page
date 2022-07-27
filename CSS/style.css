@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 * {
   padding: 0;
@@ -12,8 +12,8 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: "Poppins", sans-serif;
-  font-family: "Roboto", sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .container{
     max-width: 120rem;
@@ -27,7 +27,7 @@ body {
 
 
 header {
-    /* margin-bottom: 10rem; */
+    margin-bottom: 10rem;
     background-color: #7030CC;
     border-radius: 2rem;
     height: 100vh;
@@ -38,7 +38,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding-top: 3rem;
-    margin-bottom: 5rem;
+    /* margin-bottom: 5rem; */
     /* gap: 10rem; */
   }
   
@@ -51,7 +51,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
+  margin-right: 8rem;
     gap: 5rem;
   }
   
@@ -100,3 +100,37 @@ header {
       border: 1px solid #079bf2;
       color: #079bf2 !important;
   }
+
+
+/* ................................................  */
+/* Hero Section */
+/* ...................................................  */
+
+.hero-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+}
+
+.hero-text{
+    margin-top: 10rem;
+}
+.hero-heading{
+    font-size: 6.5rem;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 4rem;
+}
+.hero-text p{
+    font-size: 1.6rem;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.hero-img{
+width: 100%;
+}
+.hero-img img{
+    width: 100%;
+}
