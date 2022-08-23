@@ -1,4 +1,7 @@
+/* ........................  */
 /* 1200px */
+/* ......................  */
+
 @media (max-width: 1200px) {
   .logo {
     margin: 0 5rem;
@@ -10,7 +13,11 @@
     margin: 0 5rem;
   }
 }
+
+/* ...........................  */
 /* width:1000px */
+/* ...........................  */
+
 @media (max-width: 1000px) {
   html {
     font-size: 55%;
@@ -22,6 +29,10 @@
     font-size: 3rem;
   }
 }
+
+/* ...........................  */
+/* width:800px */
+/* ...........................  */
 
 @media (max-width: 800px) {
   .navbar-container {
@@ -45,6 +56,11 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* ...........................  */
+/* width:600px */
+/* ...........................  */
+
 @media (max-width: 600px) {
   .sec-1-features {
     margin-left: 5rem;
@@ -61,8 +77,8 @@
   }
   .cards-section {
     grid-template-columns: 1fr;
-    /* align-items: center; */
-    /* justify-content: center; */
     margin-left: 5rem;
   }
 }
+
+/* .....................................................  */
